@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qianlan.mapper.EntityMapper">
+
+    <select id="getEntityByName" resultType="com.qianlan.entity.Entity">
+        SELECT * FROM entity WHERE `name` = #{name}
+UNION
+SELECT
+e.*
+FROM
+(SELECT
+r.targetid
+FROM
+(SELECT * FROM entity WHERE `name` = #{name}) t
+join
+relationship r
+ON
+t.uuid=r.sourceid) a
+JOIN
+entity e
+WHERE
+a.targetid=e.uuid
+    </select>
+</mapper>

@@ -1,0 +1,139 @@
+{
+  "node": [
+    {
+      "imgsrc": "",
+      "name": "诸子百家",
+      "uuid": "1"
+    },
+    {
+      "name": "儒家",
+      "uuid": "2",
+      "imgsrc": "https://qianlan-zz.oss-cn-shanghai.aliyuncs.com/%E5%A3%81%E7%BA%B8/1%20%2811%29.jpg"
+    },
+    {
+      "name": "墨家",
+      "uuid": "3",
+      "imgsrc": ""
+    },
+    {
+      "name": "道家",
+      "uuid": "4",
+      "imgsrc": ""
+    },
+    {
+      "name": "法家",
+      "uuid": "5",
+      "imgsrc": ""
+    },
+    {
+      "name": "名家",
+      "uuid": "6",
+      "imgsrc": ""
+    },
+    {
+      "name": "阴阳家",
+      "uuid": "7",
+      "imgsrc": ""
+    },
+    {
+      "name": "纵横家",
+      "uuid": "8",
+      "imgsrc": ""
+    },
+    {
+      "name": "杂家",
+      "uuid": "9",
+      "imgsrc": ""
+    },
+    {
+      "name": "农家",
+      "uuid": "10",
+      "imgsrc": ""
+    },
+    {
+      "name": "小说家",
+      "uuid": "11",
+      "imgsrc": ""
+    },
+    {
+      "name": "兵家",
+      "uuid": "12",
+      "imgsrc": ""
+    },
+    {
+      "name": "医家",
+      "uuid": "13",
+      "imgsrc": ""
+    },
+    {
+      "name": "test",
+      "uuid": "14",
+      "imgsrc": ""
+    }
+  ],
+  "relationship": [
+    {
+      "sourceid": "1",
+      "targetid": "2"
+    },
+    {
+      "sourceid": "1",
+      "targetid": "3"
+    },
+    {
+      "sourceid": "1",
+      "targetid": "4",
+      "name": "下位"
+    },
+    {
+      "sourceid": "1",
+      "targetid": "5",
+      "name": "下位"
+    },
+    {
+      "sourceid": "1",
+      "targetid": "6",
+      "name": "下位"
+    },
+    {
+      "sourceid": "1",
+      "targetid": "7",
+      "name": "下位"
+    },
+    {
+      "sourceid": "1",
+      "targetid": "8",
+      "name": "下位"
+    },
+    {
+      "sourceid": "1",
+      "targetid": "9",
+      "name": "下位"
+    },
+    {
+      "sourceid": "1",
+      "targetid": "10",
+      "name": "下位"
+    },
+    {
+      "sourceid": "1",
+      "targetid": "11",
+      "name": "下位"
+    },
+    {
+      "sourceid": "1",
+      "targetid": "12",
+      "name": "下位"
+    },
+    {
+      "sourceid": "1",
+      "targetid": "13",
+      "name": "下位"
+    },
+    {
+      "sourceid": "2",
+      "targetid": "14",
+      "name": "下位"
+    }
+  ]
+}

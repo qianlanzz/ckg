@@ -1,0 +1,41 @@
+{
+  "node": [
+    {
+      "imgurl": "baidu.com",
+      "name": "java",
+      "uuid": 1
+    },
+    {
+      "imgurl": "org.com",
+      "name": "mysql",
+      "uuid": 2
+    },
+    {
+      "imgurl": "jdbc.com",
+      "name": "jdbc",
+      "uuid": 3
+    },
+    {
+      "imgurl": "vue.org",
+      "name": "vue",
+      "uuid": 4
+    }
+  ],
+  "relationship": [
+    {
+      "sourceid": 1,
+      "targetid": 2,
+      "name": "数据库"
+    },
+    {
+      "sourceid": 1,
+      "targetid": 3,
+      "name": "数据库连接"
+    },
+    {
+      "sourceid": 1,
+      "targetid": 4,
+      "name": "前后端分离"
+    }
+  ]
+}

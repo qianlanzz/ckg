@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qianlan.mapper.RelationshipMapper">
+
+<select id="getRelationships" resultType="com.qianlan.entity.Relationship">
+    SELECT
+r.*
+from
+(SELECT * FROM entity WHERE `name` = #{name}) t
+JOIN
+relationship r
+ON
+t.uuid = r.sourceid
+</select>
+
+
+    <delete id="deleteRelationship">
+        delete from relationship where targetid = #{id}
+    </delete>
+</mapper>
